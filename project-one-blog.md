@@ -97,6 +97,9 @@ I added more pictures to the demo that were sent to me from other projects. I ha
 #### Monday
 I have added and written more information to be used in the demo. I also asked the project groups in the area about their projects to more accurately depict them in the project.
 I have also started refactoring code more and cleaning it up. I found a simpler way to code the keyboard up for the Gaze toolbar so I wrote the code out into a word document and sent it to Phill to implement. I sent it to him to implement instead of doing it myself because he was working on the project at the time while I was working on the demo software. So instead of risking a merge conflict or other issue arising if we were trying to work on the same branch and file at the same time I let him do it.
+
+Original refactoring: ![Image](ShorterCode.PNG)
+Even more compressed: ![Image](evenShorter.PNG)
 #### Thursday
 Once again I worked on refactoring code. We were doing a lot of dynamic resizing of the information Pages in the Software demo. Phill had written it with a lot of repeated code so I worked to consolidate the resizing and display changes into more ambiguous methods that meant it was more streamlined and cut down on the code. It also made it easier to read. I also worked on the wiki. I created new images for the Gaze Toolbar wiki and edited the documentation for the software demonstration. 
 
@@ -122,7 +125,12 @@ I assisted Phill with locating and editing panels on the settings page and remov
 We had approval to begin our release but we had to wait because Phill had found a solution to the keyboard issue and we needed to wait for David to check it would work on his computer. While we were waiting we began finalizing the last few profiles on the software demonstration. We also investigated changing the default branch on the gazetoolbar repository but we did not have the correct permissions at the time so we had to wait.
 #### Thursday
 By Thursday we had recieved approval to create the new release, 'Gaze Toolbar 2.0'. We created the release on the git repository. Before doing this we used our newly given permissions to rename the master branch and Phill's keyboard branch and change the default repository to the new master. This was because we were having problems with merging our work into the master. Our version was the most up to date and so we decided it would be better as the default. Since we had changed the default branch we could now move the wiki images that had previously been stored on the software demo over to the gaze toolbar repository. We also updated the Assessibility hub website to now include, Phill, Gray and I along with short profiles we wrote. We deleted a few more unnessesary comments from the code and did a general cleanup of code. We also created the final version of the demonstration software. Despite promising to send us a profile, we had still not recieved one from Adon so as a result we wrote our own one for him.
+Here is the final version of the software demo compared to the original design:
+![homepage design](/idea1.jpg) ![homepage](/home.jpg)
+![People design](/idea2.jpg) ![People](/people.jpg)
+![Paint design](/idea3.jpg) ![Paint](/paint.jpg)
 
 ### Week Sixteen
 #### Monday
-#### Thursday
+Pretty much done. I have written a page for the wiki detailing the issues with the settings page. This will help developers in the future understand what is wrong with it, how we have worked around it and what needs to be done. It will also be a good base for someone if they have to redo the page in the future.
+I have also written an intro for the new students who take on the project that can be added to. It just has small tips and notes that would have been helpful and saved time in the future. For example it has the name of the recording software we used that won't interfere with the gaze tracking and where default settings are stored if they need to be changed. This should save them doind work we had to do this semester.
